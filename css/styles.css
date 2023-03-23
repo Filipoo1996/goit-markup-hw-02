@@ -12,12 +12,10 @@
 body{
 font-family: 'Roboto',sans-serif;
 color:var(--text-color-black);
-background-color:var(--background-page-color)
+background-color:var(--background-page-color);
 }
 .header{
-    
-    
-        background-color:var(--header-background-color)
+    background-color:var(--header-background-color);
 }
 
 .menu-logo-top{
@@ -52,8 +50,8 @@ background-color:var(--background-page-color)
     
         color:var(--text-color-black);
 }
-.navigation-link:hover {
-    color:var(--text-color-blue)
+.navigation-link:hover, .navigation-link:focus {
+    color:var(--text-color-blue);
 }
 
 .mail{
@@ -64,8 +62,8 @@ background-color:var(--background-page-color)
     
         color:var(--text-color-grey);
 }
-.mail:hover{
-    color:var(--text-color-blue)
+.mail:hover, .mail:focus{
+    color:var(--text-color-blue);
 }
 
 .tel{
@@ -77,23 +75,47 @@ background-color:var(--background-page-color)
         color: var(--text-color-grey);
     }
 
-    .tel:hover {
-        color:var(--text-color-blue)
+    .tel:hover, .tel:focus {
+        color:var(--text-color-blue);
     }
 .footer{
     background-color:var(--footer-background-color);
 }
-.button{
+.buttons > .button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    cursor: pointer;
+
+    color: var(--text-color-black);
     background-color:var(--buttons-background);
-        border-radius: 4px;
-        cursor: pointer;
+       
 }
-.button:hover, .button:hover{
+.button:hover, .button:focus{
     color:var(--text-color-white);
     background-color: var(--text-color-blue);
 }
-h1{
-    font-weight: 900;
+.box > .button {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.85;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+    color:var(--text-color-white);
+    background-color:var(--text-color-blue);
+}
+.box > .button:hover, .button:focus{
+    cursor: pointer;
+}
+.box > h1 {
+        font-weight: 900;
         font-size: 44px;
         line-height: 1.4;
     
@@ -101,33 +123,68 @@ h1{
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
-        color: #FFFFFF;
+        color: var(--text-color-white);
 }
-
-h2{
-    font-weight: 700;
+.text > h3{
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color:var(--text-color-black);
+        color: var(--text-color-black);
 }
-h3{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-       
-        letter-spacing: 0.06em;
-    
-        color:var(--text-color-black);
-}
-p{
-        font-size: 16px;
-        line-height: 1.9;
-        
-    
+.text > p {
+    font-size: 14px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
     
         color:var(--text-color-grey);
+}
+.about > h2{
+    font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color:var(--text-color-black);
+}
+.team > h3{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-black);
+}
+.team > p {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-grey);
+}
+.adress > p {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-white);
+}
+.projects > h3{
+    font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color: var(--text-color-black);
+}
+.projects > p{
+    font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-grey);
 }
