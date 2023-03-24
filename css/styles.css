@@ -148,7 +148,7 @@ background-color:var(--background-page-color);
     
         color:var(--text-color-black);
 }
-.team > h3{
+.team h3{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
@@ -157,7 +157,7 @@ background-color:var(--background-page-color);
     
         color: var(--text-color-black);
 }
-.team > p {
+.team p {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
@@ -187,4 +187,13 @@ background-color:var(--background-page-color);
         letter-spacing: 0.03em;
     
         color: var(--text-color-grey);
+}
+.team > .tittle{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color-black);
 }
